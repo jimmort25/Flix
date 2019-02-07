@@ -1,25 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+  - 2.5.*
 
 * System dependencies
-
-* Configuration
+  - run `bundle install`
 
 * Database creation
+  - Currently uses sqlite document based persistence
 
 * Database initialization
+  - To use seed data, run `rails db:seed`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* Testing
+  - run `rspec .`
 
 * Deployment instructions
-
-* ...
+  - run `rails s`
 # Flix
